@@ -10,13 +10,6 @@
 > **AnyLLMChat** brings together multiple AI models in one powerful, cross-platform experience. Currently supports OpenAI and Google Gemini models, with more providers coming soon - all from a single, beautifully designed app that works everywhere.nd
 *A powerful cross-platform multi-LLM chat application built with Convex and React Native*
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Web-blue)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Convex](https://img.shields.io/badge/Convex-FF6B6B?style=flat&logo=convex&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-
-> **Omnimind** brings together multiple AI models in one powerful, native mobile experience. Chat with OpenAI, Anthropic, Google, and more - all from a single, beautifully designed cross-platform app.
 
 ## 🌟 Why Expo/React Native Instead of a Web App?
 
