@@ -27,8 +27,6 @@ This LLM chat application is built as a **cross-platform mobile app** rather tha
 ### 🚀 **Performance & User Experience**
 - **⚡ Native Performance**: Smooth animations and transitions using `react-native-reanimated`
 - **📱 Mobile-First Design**: Optimized touch interfaces and gesture recognition
-- **🌙 Native UI Elements**: Platform-specific components (iOS blur effects, Android material design)
-- **🔄 Offline Capabilities**: Local data storage and sync when connection returns
 - **📊 Better Resource Management**: Efficient memory and battery usage compared to web browsers
 
 ### 🎯 **AI-Specific Advantages**
@@ -125,12 +123,9 @@ npx expo start
 ### ✅ **Current Features**
 - 💬 **Multi-Model Chat**: Currently supports **OpenAI** (GPT-4, GPT-3.5-turbo) and **Google Gemini** (Pro, Flash)
 - ⚡ **Real-Time Streaming**: Live response streaming with typing indicators  
-- 🤖 **AI Agents**: Integrated Convex agents with tool calling capabilities
 - 💾 **Chat History**: Persistent conversation storage and management
 - 🎨 **Beautiful UI**: Dark theme with smooth animations and haptic feedback
 - 📱 **Cross-Platform**: Runs on iOS, Android, and web with platform-specific optimizations
-- 🔄 **Offline Support**: Local data caching and sync when online
-- ⚙️ **User Preferences**: Customizable model selection and settings
 
 ### 🚧 **Coming Soon** (Ready to implement!)
 - 🤖 **More LLM Providers**: Anthropic Claude, Mistral, Cohere, and others
@@ -215,24 +210,12 @@ npx expo build:android
 npx expo build:web
 ```
 
-## 🌟 Why This Matters for the Convex Community
-
-This project showcases **Convex's power in mobile development**:
-
-1. **🔄 Real-Time Everything**: Convex's real-time subscriptions work perfectly with mobile apps
-2. **⚡ Serverless Functions**: No server management, just deploy functions and go
-3. **🗃️ Integrated Database**: Real-time database updates across all connected devices  
-4. **🤖 AI Agents**: Built-in support for AI agents and tool calling
-5. **📱 Mobile-First**: Proves Convex works great beyond web applications
-6. **🚀 Developer Experience**: Hot reloading, type safety, and instant deployments
-
 ## 🤝 Contributing
 
-We welcome contributions! This project is a great way to:
-- Learn Convex with React Native
+welcome contributions! This project is a great way to:
+- React Native
 - Explore AI integration patterns
 - Build mobile-first experiences
-- Contribute to the Convex ecosystem
 
 ### **How to Contribute**
 1. Fork the repository
@@ -257,10 +240,7 @@ MIT License - feel free to use this project as a starting point for your own AI 
 - [Convex Documentation](https://docs.convex.dev)
 - [Expo Documentation](https://docs.expo.dev)
 - [React Native Documentation](https://reactnative.dev)
-- [AI SDK Documentation](https://sdk.vercel.ai)
 
 ---
 
-**Built with ❤️ by the open source community**
-
-*Questions? Issues? Join the [Convex Discord](https://convex.dev/community) or [open an issue](https://github.com/yourusername/anyllmchat/issues)!*
+**Built with ❤️**
