@@ -7,7 +7,12 @@
 ![Convex](https://img.shields.io/badge/Convex-FF6B6B?style=flat&logo=convex&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 
-> **AnyLLMChat** brings together multiple AI models in one powerful, cross-platform experience. Currently supports OpenAI and Google Gemini models, with more providers coming soon - all from a single, beautifully designed app that works everywhere.nd
+<div align="center">
+  <img src="assets/images/Any Llm Chat.gif" alt="AnyLLMChat Demo" width="300" />
+</div>
+
+> **AnyLLMChat** brings together multiple AI models in one powerful, cross-platform experience. Currently supports OpenAI and Google Gemini models, with more providers coming soon - all from a single, beautifully designed app that works everywhere.
+
 *A powerful cross-platform multi-LLM chat application built with Convex and React Native*
 
 
