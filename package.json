@@ -3,13 +3,13 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "description": "A cross-platform chat application supporting OpenAI and Google Gemini models. Built with React Native, Expo, and Convex for iOS, Android, and Web.",
-  "homepage": "https://github.com/yourusername/anyllmchat",
+  "homepage": "https://github.com/vintuvishAl/anyllmchat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/anyllmchat.git"
+    "url": "https://github.com/vintuvishAl/anyllmchat.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/anyllmchat/issues"
+    "url": "https://github.com/vintuvishAl/anyllmchat/issues"
   },
   "keywords": [
     "anyllm",
@@ -27,7 +27,7 @@
     "mobile",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Vishal Amidala",
   "license": "MIT",
   "scripts": {
     "start": "expo start",
