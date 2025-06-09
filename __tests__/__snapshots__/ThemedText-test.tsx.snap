@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThemedText /> snapshot test for default ThemedText 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#1f2937",
+      },
+      {
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Snapshot text
+</Text>
+`;
+
+exports[`<ThemedText /> snapshot test for title ThemedText 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#1f2937",
+      },
+      undefined,
+      {
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "lineHeight": 32,
+      },
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Title snapshot
+</Text>
+`;

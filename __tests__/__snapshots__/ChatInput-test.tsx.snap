@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatInput /> matches snapshot 1`] = `
+<View
+  className="bg-app-dark-background px-3 py-0"
+>
+  <View
+    className="border-4 border-app-dark-border border-b-0 rounded-lg rounded-b-none   "
+  >
+    <View
+      className="bg-app-dark-chat-bg  px-6 py-2  "
+    >
+       
+      <TextInput
+        blurOnSubmit={false}
+        className="text-app-dark-text text-base min-h-6"
+        multiline={true}
+        onChangeText={[MockFunction]}
+        onSubmitEditing={[Function]}
+        placeholder="Type your message here..."
+        placeholderTextColor="#9ca3af"
+        returnKeyType="send"
+        testID="message-input"
+        value=""
+      />
+    </View>
+    <View
+      className="flex-row items-center justify-between bg-app-dark-chat-bg  px-6 py-2 "
+    >
+      <View
+        className="flex-row items-center space-x-4 gap-2"
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+          testID="model-selector"
+        >
+          <Text
+            className="text-app-dark-text text-sm font-medium"
+          >
+            Gemini 2.5 Flash
+          </Text>
+          <Text
+            allowFontScaling={false}
+            className="text-app-dark-icon"
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#6b6b6b",
+                  "fontSize": 16,
+                },
+                undefined,
+                {
+                  "fontFamily": "ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="send-button"
+      >
+        <Text
+          allowFontScaling={false}
+          className="text-app-dark-text"
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#1f2937",
+                "fontSize": 20,
+              },
+              undefined,
+              {
+                "fontFamily": "ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<ChatInput /> matches snapshot while creating chat 1`] = `
+<View
+  className="bg-app-dark-background px-3 py-0"
+>
+  <View
+    className="border-4 border-app-dark-border border-b-0 rounded-lg rounded-b-none   "
+  >
+    <View
+      className="bg-app-dark-chat-bg  px-6 py-2  "
+    >
+       
+      <TextInput
+        blurOnSubmit={false}
+        className="text-app-dark-text text-base min-h-6"
+        multiline={true}
+        onChangeText={[MockFunction]}
+        onSubmitEditing={[Function]}
+        placeholder="Type your message here..."
+        placeholderTextColor="#9ca3af"
+        returnKeyType="send"
+        testID="message-input"
+        value=""
+      />
+    </View>
+    <View
+      className="flex-row items-center justify-between bg-app-dark-chat-bg  px-6 py-2 "
+    >
+      <View
+        className="flex-row items-center space-x-4 gap-2"
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+          testID="model-selector"
+        >
+          <Text
+            className="text-app-dark-text text-sm font-medium"
+          >
+            Gemini 2.5 Flash
+          </Text>
+          <Text
+            allowFontScaling={false}
+            className="text-app-dark-icon"
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#6b6b6b",
+                  "fontSize": 16,
+                },
+                undefined,
+                {
+                  "fontFamily": "ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="send-button"
+      >
+        <Text
+          allowFontScaling={false}
+          className="text-app-dark-text"
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#6b6b6b",
+                "fontSize": 20,
+              },
+              undefined,
+              {
+                "fontFamily": "ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<ChatInput /> matches snapshot with agent mode 1`] = `
+<View
+  className="bg-app-dark-background px-3 py-0"
+>
+  <View
+    className="border-4 border-app-dark-border border-b-0 rounded-lg rounded-b-none   "
+  >
+    <View
+      className="bg-app-dark-chat-bg  px-6 py-2  "
+    >
+       
+      <TextInput
+        blurOnSubmit={false}
+        className="text-app-dark-text text-base min-h-6"
+        multiline={true}
+        onChangeText={[MockFunction]}
+        onSubmitEditing={[Function]}
+        placeholder="Type your message here..."
+        placeholderTextColor="#9ca3af"
+        returnKeyType="send"
+        testID="message-input"
+        value=""
+      />
+    </View>
+    <View
+      className="flex-row items-center justify-between bg-app-dark-chat-bg  px-6 py-2 "
+    >
+      <View
+        className="flex-row items-center space-x-4 gap-2"
+      >
+        <View
+          className="flex-row items-center space-x-1 bg-blue-600 px-2 py-1 rounded"
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontSize": 14,
+                },
+                undefined,
+                {
+                  "fontFamily": "ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            className="text-white text-xs font-medium"
+          >
+            Agent
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+          testID="model-selector"
+        >
+          <Text
+            className="text-app-dark-text text-sm font-medium"
+          >
+            Gemini 2.5 Flash
+          </Text>
+          <Text
+            allowFontScaling={false}
+            className="text-app-dark-icon"
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#6b6b6b",
+                  "fontSize": 16,
+                },
+                undefined,
+                {
+                  "fontFamily": "ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="send-button"
+      >
+        <Text
+          allowFontScaling={false}
+          className="text-app-dark-text"
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#1f2937",
+                "fontSize": 20,
+              },
+              undefined,
+              {
+                "fontFamily": "ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

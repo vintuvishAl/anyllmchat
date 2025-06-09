@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundScreen /> matches snapshot 1`] = `
+[
+  <div>
+    Oops!
+  </div>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#111827",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#f3f4f6",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+        }
+      }
+    >
+      This screen does not exist.
+    </Text>
+    <div
+      style={
+        {
+          "marginTop": 15,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#3b82f6",
+            "fontSize": 16,
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        Go to home screen!
+      </Text>
+    </div>
+  </View>,
+]
+`;
